@@ -1,0 +1,9 @@
+<div id="view"></div>
+<script src="//static.opentok.com/v2/js/opentok.js"></script>
+<script>
+  var sessionId = <%- JSON.stringify(sessionId) %>;
+  console.log(sessionId);
+  ReactDOM.render(
+      React.createElement(StartSession, {sessionId: sessionId}), document.getElementById("view")
+  );
+</script>

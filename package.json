@@ -1,0 +1,15 @@
+{
+  "name": "@fitworld/root",
+  "version": "1.0.0",
+  "description": "umbrellay fitworld",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mobile": "node FWMobile/node_modules/react-native/local-cli/cli.js start"
+  },
+  "author": "ExeQut",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.14.0",
+    "socket.io-client": "^1.7.2"
+  }
+}

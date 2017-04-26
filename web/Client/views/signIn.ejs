@@ -1,0 +1,35 @@
+<div class="sign-in-background-img">
+
+<div class="fix-margin2">
+  <div class="login-div col-md-6">
+    <div class="row">
+        <!-- <div class="col-md-6 pic-side">
+            <img class="img-login" src="/img/gym-background.jpg" alt="">
+        </div> -->
+          <div class="col-md-12 login-side">
+            <div><img src="/img/mainLogo.png" class="center-login-main-logo"/></div>
+              <form action="/auth/signIn" method="POST">
+                  <h2 class="login-title">Provider Portal</h2>
+                  <p style="color: red;"><%= locals.message != null ? message : "" %></p>
+                  <div class="form-group">
+                      <input type="text" class="form-control" id="username" name="userName" placeholder="Email">
+                  </div>
+                  <div class="form-group">
+                      <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+                  </div>
+                  <input type="text" style="display: none;" id="redirectPath" name="redirectPath" value="<%= redirectPath %>" />
+                  <button type="submit" class="btn  btn-block button-login">Go</button>
+                  <div>
+                      <a href="/auth/becomeProvider" class="tag-login">Apply To Be A Provider</a>
+                      <a href="/auth/forgot" class="tag-login2">Forgot Password</a>
+                  </div>
+                  <div class="google-facebook">
+                      <a href="/auth/google"><button type="button" class="btn  google-facebook1 google">Google</button></a>
+                      <a href="/auth/facebook"><button type="button" class="btn google-facebook1 facebook">Facebook</button></a>
+                  </div>
+              </form>
+          </div>
+      </div>
+  </div>
+</div>
+</div>

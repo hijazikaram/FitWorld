@@ -1,0 +1,13 @@
+window.ReactDOM= require("react-dom");
+window.React= require("react");
+window.ProviderPage = require('./jsx/provider.jsx');
+window.BecomeProvider = require('./jsx/becomeProvider.jsx');
+window.AdminPage = require('./jsx/adminPage.jsx');
+window.HomePage = require('./jsx/index.jsx');
+window.App = require('./jsx/app.jsx');
+window.StartSession = require('./jsx/startSession.jsx');
+window.SignIn = require('./jsx/signIn.jsx');
+window.AddGigs = require('./jsx/addGigs.jsx');
+window.Home = require('./jsx/home.jsx');
+window.ProviderChat = require('./jsx/providerChat.jsx');
+window.ProviderCalendar = require('./jsx/providerCalendar.jsx');

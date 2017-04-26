@@ -1,0 +1,19 @@
+extends layout
+
+block content
+
+
+  <div id="view"></div>
+
+block scripts
+  script(src='//static.opentok.com/v2/js/opentok.js')
+  script.
+    ReactDOM.render(React.createElement(StartSession, {}), document.getElementById("view"));
+    
+    <div id="view"></div>
+      <script src="//static.opentok.com/v2/js/opentok.js"></script>
+      <script>
+        ReactDOM.render(
+            React.createElement(StartSession, {}), document.getElementById("view")
+        );
+      </script>
